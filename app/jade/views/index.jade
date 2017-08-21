@@ -1,0 +1,10 @@
+extends ../layout/templates/basicEmailTemplate
+append config
+  -var currentPage = "Email Template"
+  -var content = "this is a email temaplate boilerplate"
+  -var tittle = "Email Template"
+  -var description = "this is a email temaplate boilerplate"
+block emailBody
+  include ../layout/modules/singleTable
+  include ../layout/modules/emailBg
+  include ../layout/modules/grid

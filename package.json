@@ -1,0 +1,19 @@
+{
+  "name": "myfrm-email",
+  "version": "0.0.1",
+  "description": "myFrm_Email description",
+  "author": "Enrique Estrda",
+  "devDependencies": {
+    "browser-sync" : "~2.2.1",
+    "del": "~1.1.1",
+    "gulp": "~3.8.11",
+    "gulp-concat": "~2.5.0",
+    "gulp-jade": "~1.0.0",
+    "gulp-inline-css": "~2.0.0",
+    "gulp-inline-source": "~1.2.0",
+    "gulp-sourcemaps": "~1.3.0",
+    "gulp-ruby-sass": "~1.0.0-alpha.3",
+    "gulp-rename": "~1.2.0",
+    "jade": "~1.9.2"
+  }
+}
