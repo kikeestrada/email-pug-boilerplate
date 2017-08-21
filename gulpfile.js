@@ -1,20 +1,20 @@
 'use strict';
 
-var gulp = require('gulp');
-var browserSync = require('browser-sync');
-var reload = browserSync.reload;
-var pug = require('gulp-pug');
-var rubySass = require('gulp-ruby-sass');
-var sourcemaps = require('gulp-sourcemaps');
-var inlineCss = require('gulp-inline-css');
-var inlineSource = require('gulp-inline-source');
-var rename = require('gulp-rename');
+var gulp = require('gulp'),
+    browserSync = require('browser-sync'),
+    reload = browserSync.reload,
+    pug = require('gulp-pug'),
+    rubySass = require('gulp-ruby-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
+    inlineCss = require('gulp-inline-css'),
+    inlineSource = require('gulp-inline-source'),
+    rename = require('gulp-rename');
 
 
 gulp.task('styles', function() {
   return rubySass('app/styles/scss/main.scss', {
       sourcemap: false,
-      style: 'expanded',
+      style: 'compressed',
       lineNumbers: true
     })
     .pipe(sourcemaps.write())
@@ -45,10 +45,15 @@ gulp.task('pug', function() {
     .pipe(gulp.dest('app/'));
 });
 
+gulp.task('img', function() {
+    return gulp.src('app/img/*.*')
+        .pipe(gulp.dest('dist/img/'));
+});
+
 
 gulp.task('clean', require('del').bind(null, 'dist'));
 
-gulp.task('build', ['clean','inline']);
+gulp.task('build', ['clean','inline','img']);
 
 gulp.task('serve', ['styles', 'pug'], function() {
   browserSync({
