@@ -1,0 +1,15 @@
+//======================================================================================================================
+//Images
+mixin emailImage(hoverUrl,hoverExt, imgAlt, imgClasss, imgWidth, imgHeight)
+	img(src=`img/${hoverUrl}.${hoverExt}` , alt=`${imgAlt}`, width=`${imgWidth}`, height=`${imgHeight}`, border="0", class=`${imgClasss}`, style="display:block")
+//use
+//+emailImage('mane','ext', 'alt de la imagen', 'class', 'width', 'heigth')
+//======================================================================================================================
+mixin imgSpacer(imgWidth, imgHeight)
+	img(src='img/spacer.gif' , alt='spacer', width=`${imgWidth}`, height=`${imgHeight}`, border="0", style="display:block")
+//use
+//+imgSpacer('imgWidth', 'imgHeight')
+//======================================================================================================================
+
+mixin emailText(textContent)
+	span.emailText= textContent
