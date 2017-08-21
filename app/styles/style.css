@@ -139,3 +139,7 @@ table td {
     width: 600px !important;
   }
 }
+/* line 4, app/styles/scss/main.scss */
+.patito {
+  border-radius: 5px;
+}

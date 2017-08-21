@@ -1,18 +1,13 @@
 'use strict';
 
 var gulp = require('gulp');
-
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
-
-var jade = require('gulp-jade');
-
+var pug = require('gulp-pug');
 var rubySass = require('gulp-ruby-sass');
 var sourcemaps = require('gulp-sourcemaps');
-
 var inlineCss = require('gulp-inline-css');
 var inlineSource = require('gulp-inline-source');
-
 var rename = require('gulp-rename');
 
 
@@ -29,7 +24,7 @@ gulp.task('styles', function() {
 });
 
 
-gulp.task('inline', ['styles', 'jade'], function() {
+gulp.task('inline', ['styles', 'pug'], function() {
   return gulp.src('app/*.html')
     .pipe(inlineSource({
       rootpath: 'app'
@@ -41,9 +36,9 @@ gulp.task('inline', ['styles', 'jade'], function() {
 });
 
 
-gulp.task('jade', function() {
-  return gulp.src('app/jade/views/*.jade')
-    .pipe(jade({
+gulp.task('pug', function() {
+  return gulp.src('app/pug/views/*.pug')
+    .pipe(pug({
       pretty: true,
       compileDebug: true
     }))
@@ -55,7 +50,7 @@ gulp.task('clean', require('del').bind(null, 'dist'));
 
 gulp.task('build', ['clean','inline']);
 
-gulp.task('serve', ['styles', 'jade'], function() {
+gulp.task('serve', ['styles', 'pug'], function() {
   browserSync({
     server: './app',
     notify: false,
@@ -65,7 +60,7 @@ gulp.task('serve', ['styles', 'jade'], function() {
 
   gulp.watch('app/styles/**/*.scss', ['styles']);
   gulp.watch('app/*.html').on('change', reload);
-  gulp.watch('app/jade/**/*.jade', ['jade']);
+  gulp.watch('app/pug/**/*.pug', ['pug']);
 });
 
 gulp.task('serve:dist', ['inline'], function() {
