@@ -1,15 +1,15 @@
-//======================================================================================================================
-//Images
+//-======================================================================================================================
+//-Images
 mixin emailImage(imgUrl,imgExt, imgAlt, imgClasss, imgWidth, imgHeight)
-	img(src=`img/${imgUrl}.${imgExt}` , alt=`${imgAlt}`, class=`${imgClasss}`, width=`${imgWidth}`, height=`${imgHeight}`, border="0", style="display:block")
-//use
-//+emailImage('mane','ext', 'alt de la imagen', 'class', 'width', 'heigth')
-//======================================================================================================================
+	img(src=`img/${imgUrl}.${imgExt}` , alt=`${imgAlt}`, class=`${imgClasss}`,  width=`${imgWidth}`, height=`${imgHeight}`, border="0", style="display:block")
+//-use
+//-+emailImage('mane','ext', 'alt de la imagen', 'class', 'width', 'heigth')
+//-======================================================================================================================
 mixin imgSpacer(imgWidth, imgHeight)
 	img(src='img/spacer.gif' , alt='spacer', width=`${imgWidth}`, height=`${imgHeight}`, border="0", style="display:block")
-//use
-//+imgSpacer('imgWidth', 'imgHeight')
-//======================================================================================================================
+//-use
+//-+imgSpacer('imgWidth', 'imgHeight')
+//-======================================================================================================================
 
 mixin emailText(textContent, a, b, c)
 	span(class='patito', style='font-size: 16px;', color=`${a}`, face='Arial, Helvetica, sans-serif', font-weight=`${b}`,line-height=`${c}`)= textContent
