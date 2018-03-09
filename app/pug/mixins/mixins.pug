@@ -11,5 +11,6 @@ mixin imgSpacer(imgWidth, imgHeight)
 //+imgSpacer('imgWidth', 'imgHeight')
 //======================================================================================================================
 
-mixin emailText(textContent)
-	span.emailText= textContent
+mixin emailText(textContent, a, b, c)
+	span(class='patito', style='font-size: 16px;', color=`${a}`, face='Arial, Helvetica, sans-serif', font-weight=`${b}`,line-height=`${c}`)= textContent
+

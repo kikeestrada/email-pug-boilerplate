@@ -91,5 +91,10 @@ table td {
 @media screen and (min-width: 601px) {
   .container {
     width: 600px !important; } }
+.patito {
+  border-radius: 60px; }
+
+.patitoww {
+  border-radius: 60px; }
 
 /*# sourceMappingURL=main.css.map */
