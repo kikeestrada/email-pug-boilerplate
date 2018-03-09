@@ -1,10 +1,15 @@
 extends ../templates/basicEmailTemplate
 append config
-  -var currentPage = "Home Page"
-  -var content = "Content Text"
-  -var tittle = "Email Template Customer"
-  -var description = "Description Text"
+	-var currentPage = "Home Page"
+	-var content = "Content Text"
+	-var tittle = "Email Template Customer"
+	-var description = "Description Text"
 block emailBody
-  //include ../modules/singleTable
-  //include ../modules/emailBg
-  //include ../modules/grid
+	include ../modules/DIM/heroResize
+	include ../modules/DIM/showmobile
+	include ../modules/DIM/columnStack
+	include ../modules/DIM/oldColumStack
+	include ../modules/DIM/inverseColumStck
+	include ../modules/DIM/appleLinkFix
+	include ../modules/DIM/showMobile
+	include ../modules/DIM/yahooFix

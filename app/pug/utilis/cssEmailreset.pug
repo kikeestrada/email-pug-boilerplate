@@ -1,49 +1,38 @@
-style(type='text/css').
-    body {
-        width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;
-        }
-    .ReadMsgBody {
-        width: 100%;
-        }
-    .ExternalClass p,
-    .ExternalClass span,
-    .ExternalClass font,
-    .ExternalClass td
-    {line-height: 100%}
-
-    table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; padding:0;}
-    table td {
-        border-collapse: collapse;
-    }
-    .appleLinks a {color: #000000 !important; text-decoration: none !important;}
-    @media only screen and (max-width: 599px) {
-    * {-webkit-text-size-adjust: none}
-    .ReadMsgBody {width: 100%;}
-    .ExternalClass p,
-    .ExternalClass span,
-    .ExternalClass font,
-    .ExternalClass td
-    {line-height: 100%}
-
-    *[class=contenttable] 	{ width:320px !important;}
-    *[class=contenttable2] 	{ width:300px !important;}
-    *[class=contenttable3] 	{ width:10px !important;}
-    *[class=mobile] 		{ width:320px !important;height: auto !important;}
-    *[class=mobile2] 		{ width:300px !important;height: auto !important;}
-    *[class=font] 			{ font-size: 22px !important;}
-    *[class=hide] 			{ display: none !important;}
-    *[class=block] 			{ display: block !important;}
-    *[class=blocktable] 	{ display: block !important; width:320px !important;}
-    *[class=divider] 		{ width: 320px !important;}
-    *[class=font_gray]		{ color:gray;}
-    *[class=showmobile]		{ display:block !important;  margin:auto !important; width:320px !important; height:auto !important; max-height:inherit !important; overflow:visible !important;}
-    
-    
-    /*---Custom Class---*/
-    *[class=rblock] { margin-top:10px !important; width:320px !important;}
-    }
-    @media screen and (min-width: 601px) {
-        .container {
-            width: 600px!important;
-        }
-    }
+style.
+	body {width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+	.ReadMsgBody {width: 100%;}
+	.ExternalClass p,
+	.ExternalClass span,
+	.ExternalClass font,
+	.ExternalClass td
+	{line-height: 100%}
+	.gmailfix {
+		display:none;
+		display:none!important;
+	}
+	table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; padding:0;}
+	table td {border-collapse: collapse;}
+	p{margin:0 auto; text-align:center;}
+	*{-webkit-text-size-adjust:none;-ms-text-size-adjust:none;max-height:1000000px;mso-line-height-rule:exactly; line-height: 100%}
+	.appleLinks a {color: #000000 !important; text-decoration: none !important;}
+	/*Media for Android 4.4.4*/
+	/*@media only screen and (max-width: 600px){
+	}*/
+	/*Media iPhone 6 Plus*/
+	@media only screen and (max-width: 418px) {
+		p{color:red;}
+		.contenttable{ width:414px !important;}
+		.mobile{ width:414px !important;height: auto !important;}
+		.block{display: block !important;}
+		.hide{display: none !important;}
+		.showmobile{display:block !important;  margin:auto !important; width:414px !important; height:auto !important; max-height:inherit !important; overflow:visible !important;}
+	}
+	/*Media iPhone 6*/
+	/* @media only screen and (max-width: 379px) {
+	}*/
+	/*Media iPhone & Regular mobile size 320*/
+	/* @media only screen and (max-width: 330px) {
+	}*/
+	@media yahoo{
+		.yahootest {width:200px !important; border:1px solid red !important; display:block !important;}
+	}

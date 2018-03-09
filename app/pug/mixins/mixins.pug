@@ -1,7 +1,7 @@
 //======================================================================================================================
 //Images
-mixin emailImage(hoverUrl,hoverExt, imgAlt, imgClasss, imgWidth, imgHeight)
-	img(src=`img/${hoverUrl}.${hoverExt}` , alt=`${imgAlt}`, width=`${imgWidth}`, height=`${imgHeight}`, border="0", class=`${imgClasss}`, style="display:block")
+mixin emailImage(imgUrl,imgExt, imgAlt, imgClasss, imgWidth, imgHeight)
+	img(src=`img/${imgUrl}.${imgExt}` , alt=`${imgAlt}`, class=`${imgClasss}`, width=`${imgWidth}`, height=`${imgHeight}`, border="0", style="display:block")
 //use
 //+emailImage('mane','ext', 'alt de la imagen', 'class', 'width', 'heigth')
 //======================================================================================================================
