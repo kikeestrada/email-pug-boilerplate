@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2154b9d5-1431-484a-ab62-c8c04ebc64f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/modules/webFont.pug" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/html/modules/DIM/liquidImage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pug/modules/text.pug" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/modules/emailBg.pug" afterPath="$PROJECT_DIR$/app/pug/modules/emailBg.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/modules/oldGrid.pug" afterPath="$PROJECT_DIR$/app/pug/modules/oldGrid.pug" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pug/modules/showMobile.pug" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/modules/RWD/showMobile.pug" afterPath="$PROJECT_DIR$/app/pug/modules/RWD/showMobile.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/modules/singleTable.pug" afterPath="$PROJECT_DIR$/app/pug/modules/singleTable.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" afterPath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/views/index.pug" afterPath="$PROJECT_DIR$/app/pug/views/index.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,72 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/views/index.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="singleTable.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="singleTable.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/pug/modules/singleTable.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="metaTags.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/utilis/metaTags.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cssEmailreset.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="27" />
-              <caret line="59" column="36" lean-forward="false" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oldGrid.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/modules/oldGrid.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showMobile.pug" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/pug/modules/showMobile.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixins.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/mixins/mixins.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="15" />
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -129,9 +62,11 @@
         <option value="$PROJECT_DIR$/app/pug/modules/webFont.pug" />
         <option value="$PROJECT_DIR$/app/pug/modules/DIM/inverseColumStck.pug" />
         <option value="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
-        <option value="$PROJECT_DIR$/app/pug/modules/singleTable.pug" />
         <option value="$PROJECT_DIR$/app/pug/views/index.pug" />
         <option value="$PROJECT_DIR$/app/pug/modules/oldGrid.pug" />
+        <option value="$PROJECT_DIR$/app/pug/modules/showMobile.pug" />
+        <option value="$PROJECT_DIR$/app/pug/modules/RWD/showMobile.pug" />
+        <option value="$PROJECT_DIR$/app/pug/modules/singleTable.pug" />
       </list>
     </option>
   </component>
@@ -233,12 +168,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520551724381</updated>
-      <workItem from="1520551727917" duration="14598000" />
+      <workItem from="1520551727917" duration="14869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14598000" />
+    <option name="totallyTimeSpent" value="14869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-24" width="1440" height="866" extended-state="0" />
@@ -252,7 +187,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3216602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3216602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -450,26 +385,26 @@
           <caret line="116" column="44" lean-forward="false" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="44" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3936#3942#0" expanded="true" />
-            <element signature="e#3943#3949#0" expanded="true" />
-            <element signature="e#3950#3956#0" expanded="true" />
-            <element signature="e#3957#3963#0" expanded="true" />
-            <element signature="e#3964#3970#0" expanded="true" />
-            <element signature="e#3971#3977#0" expanded="true" />
-            <element signature="e#3978#3984#0" expanded="true" />
-            <element signature="e#3985#3991#0" expanded="true" />
-            <element signature="e#3992#3998#0" expanded="true" />
-            <element signature="e#3999#4005#0" expanded="true" />
-            <element signature="e#4012#4018#0" expanded="true" />
-            <element signature="e#4019#4025#0" expanded="true" />
-            <element signature="e#4026#4032#0" expanded="true" />
-            <element signature="e#4033#4039#0" expanded="true" />
-            <element signature="e#4040#4046#0" expanded="true" />
-            <element signature="e#4047#4053#0" expanded="true" />
-            <element signature="e#4054#4060#0" expanded="true" />
-            <element signature="e#4061#4067#0" expanded="true" />
-            <element signature="e#4068#4074#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#3936#3942#0" expanded="false" />
+            <element signature="e#3943#3949#0" expanded="false" />
+            <element signature="e#3950#3956#0" expanded="false" />
+            <element signature="e#3957#3963#0" expanded="false" />
+            <element signature="e#3964#3970#0" expanded="false" />
+            <element signature="e#3971#3977#0" expanded="false" />
+            <element signature="e#3978#3984#0" expanded="false" />
+            <element signature="e#3985#3991#0" expanded="false" />
+            <element signature="e#3992#3998#0" expanded="false" />
+            <element signature="e#3999#4005#0" expanded="false" />
+            <element signature="e#4012#4018#0" expanded="false" />
+            <element signature="e#4019#4025#0" expanded="false" />
+            <element signature="e#4026#4032#0" expanded="false" />
+            <element signature="e#4033#4039#0" expanded="false" />
+            <element signature="e#4040#4046#0" expanded="false" />
+            <element signature="e#4047#4053#0" expanded="false" />
+            <element signature="e#4054#4060#0" expanded="false" />
+            <element signature="e#4061#4067#0" expanded="false" />
+            <element signature="e#4068#4074#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -507,14 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/modules/singleTable.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -533,8 +460,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/modules/showMobile.pug">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="166" lean-forward="false" selection-start-line="2" selection-start-column="166" selection-end-line="2" selection-end-column="166" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/modules/RWD/showMobile.pug">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/modules/singleTable.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
