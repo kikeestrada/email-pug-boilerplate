@@ -1,9 +1,10 @@
-style.
+style(type='text/css').
 	body {
-		width:100% !important; -webkit-text-size-adjust:100%;
-		ms-text-size-adjust:100%;
-		margin:0;
-		padding:0;
+		width: 100% !important;
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+		margin: 0 !important;
+		padding: 0 !important;
 	}
 	.ReadMsgBody {width: 100%;}
 	.ExternalClass p,
@@ -34,15 +35,31 @@ style.
 	}
 	.appleLinks a {color: #000000 !important; text-decoration: none !important;}
 	/*Media for Android 4.4.4*/
-	/*@media only screen and (max-width: 600px){
-	}*/
+	/*@media only screen and (max-width: 600px){}*/
 	/*Media iPhone 6 Plus*/
-	@media only screen and (max-width: 418px) {
+	@media only screen and (max-width: 640px) {
+		* {-webkit-text-size-adjust: none}
 		p{color:red;}
+
+
+		.blocktable{width: 100% !important;}
+		*[class=blocktable]{width: 100% !important;}
+
 		.contenttable{ width:414px !important;}
+		*[class=contenttable] { width:414px !important;}
+
+
 		.mobile{ width:414px !important;height: auto !important;}
+		*[class=mobile] { width:414px !important;height: auto !important;}
+
+
 		.block{display: block !important;}
+		*[class=block] {display: block !important;}
+
 		.hide{display: none !important;}
+		*[class=hide] {display: none !important;}
+
+
 		.showmobile{
 			display:block !important;
 			margin:auto !important;
@@ -51,6 +68,15 @@ style.
 			max-height:inherit !important;
 			overflow:visible !important;
 		}
+		*[class=showmobile]{
+			display:block !important;
+			margin:auto !important;
+			width:414px !important;
+			height:auto !important;
+			max-height:inherit !important;
+			overflow:visible !important;
+		}
+
 	}
 	/*Media iPhone 6*/
 	/* @media only screen and (max-width: 379px) {
@@ -61,3 +87,15 @@ style.
 	@media yahoo{
 		.yahootest {width:200px !important; border:1px solid red !important; display:block !important;}
 	}
+	*[class=rblock] { margin-top:10px !important; width:320px !important;}
+
+style.
+	@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+	/* latin */
+	@font-face {
+		font-family: 'Indie Flower';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+	}
+
