@@ -35,48 +35,26 @@ style(type='text/css').
 	}
 	.appleLinks a {color: #000000 !important; text-decoration: none !important;}
 	/*Media for Android 4.4.4*/
-	/*@media only screen and (max-width: 600px){}*/
 	/*Media iPhone 6 Plus*/
-	@media only screen and (max-width: 640px) {
+	@media only screen and (max-width: 640px){
 		* {-webkit-text-size-adjust: none}
 		p{color:red;}
-
-
-		.blocktable{width: 100% !important;}
-		*[class=blocktable]{width: 100% !important;}
-
-		.contenttable{ width:414px !important;}
-		*[class=contenttable] { width:414px !important;}
-
-
-		.mobile{ width:414px !important;height: auto !important;}
-		*[class=mobile] { width:414px !important;height: auto !important;}
-
-
-		.block{display: block !important;}
-		*[class=block] {display: block !important;}
-
-		.hide{display: none !important;}
-		*[class=hide] {display: none !important;}
-
-
-		.showmobile{
-			display:block !important;
-			margin:auto !important;
-			width:414px !important;
-			height:auto !important;
-			max-height:inherit !important;
-			overflow:visible !important;
-		}
-		*[class=showmobile]{
-			display:block !important;
-			margin:auto !important;
-			width:414px !important;
-			height:auto !important;
-			max-height:inherit !important;
-			overflow:visible !important;
-		}
-
+		/*CSS for Yahoo no spaces*/
+		*[class=contenttable]{width:95%!important;}
+		.contenttable{width:95%!important;}
+		*[class=hide]{display:none!important;}
+		.hide{display:none!important;}
+		*[class=showmobile]{display:block!important;margin:auto!important;width:100%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
+		.showmobile{display:block!important;margin:auto!important;width:100%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
+		*[class=showmobiletable] {display:block!important;margin:auto!important;width:95%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
+		.showmobiletable{display:block!important;margin:auto!important;width:95%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
+		*[class=contentInteractive]{display:none!important;}
+		.blocktable{width:100%!important;}
+		*[class=blocktable]{width:100%!important;}
+		.mobile{width:414px!important;height:auto!important;}
+		*[class=mobile]{width:414px!important;height:auto!important;}
+		*[class=block]{display:block!important;float:none}
+		.block{display:block!important;float:none}
 	}
 	/*Media iPhone 6*/
 	/* @media only screen and (max-width: 379px) {
