@@ -4,5 +4,3 @@
 .idea/emacs.xml
 .idea/inspectionProfiles/
 app/pug/modules/DIM/
-dist/
-prepros-6.config
