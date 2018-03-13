@@ -23,7 +23,11 @@ style(type='text/css').
 		padding:0;
 	}
 	table td {
-		border-collapse: collapse;
+		border-collapse: collapse !important;
+		border-spacing: 0;
+		border: 0 none;
+		mso-table-lspace: 0pt;
+		mso-table-rspace: 0pt;
 	}
 	p{margin:0 auto; text-align:center;}
 	*{
@@ -33,9 +37,16 @@ style(type='text/css').
 		mso-line-height-rule:exactly;
 		line-height: 100%
 	}
+	img {
+		display: block;
+		border: 0 none !important;
+		outline: none;
+		text-decoration: none;
+	}
 	.appleLinks a {color: #000000 !important; text-decoration: none !important;}
 	/*Media for Android 4.4.4*/
 	/*Media iPhone 6 Plus*/
+
 	@media only screen and (max-width: 640px){
 		* {-webkit-text-size-adjust: none}
 		p{color:red;}
