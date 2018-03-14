@@ -63,8 +63,8 @@
       	* {-webkit-text-size-adjust: none}
       	p{color:red;}
       	/*CSS for Yahoo no spaces*/
-      	*[class=contenttable]{width:95%!important;}
-      	.contenttable{width:95%!important;}
+      	*[class=contenttable]{width:320px!important;}
+      	.contenttable{width:320px!important;}
       	*[class=hide]{display:none!important;}
       	.hide{display:none!important;}
       	*[class=showmobile]{display:block!important;margin:auto!important;width:100%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
@@ -111,25 +111,36 @@
     <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
       <tr>
         <td valign="top">
-          <!--include ../components/hamburguer-->
-          <!-- Starts Regular Hero Resize-->
+          <!-- Starts Hero Main Image-->
           <p>Regular Hero Resize</p>
           <table class="contenttable" width="600" border="0" cellpadding="0" cellspacing="0" align="center">
             <tr>
               <td align="center"><a href="#" target="_blank"><img class="no-class" src="img/img1.jpg" alt="alt de la imagen" title="title Image" width="100%" height="auto" border="0" style="display:block;"/></a></td>
             </tr>
           </table>
-          <!-- Ends Regular Hero Resize-->
-          <!--Liquid image-->
-          <div class="showmobile" style="display:none; width:0; max-height:0; overflow:hidden;">
-            <table class="showmobiletable" width="600" border="1" cellpadding="0" cellspacing="0" align="center" style="margin: 0 auto; display: none; border: 0;">
+          <!-- Ends Hero Main Image-->
+          <table class="contenttable" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
               <tr>
-                <td align="center"><img class="no-class" src="img/img2.jpg" alt="alt de la imagen" title="title Image" width="100%" height="auto" border="0" style="display:block;"/>
+                <td>
+                  <!-- ****************Starts Show/Hide Fix********************-->
+                  <!-- [if !mso] <!-->
+                  <div class="showmobile" style="display:none; width:0; max-height:0; overflow:hidden;">
+                    <table class="showmobile " width="320" border="0" cellspacing="0" cellpadding="0" align="center" style="margin: 0 auto; display: none; border: 0; max-height:0; overflow:hidden;">
+                      <tbody>
+                        <tr>
+                          <td><img class="no-class" src="img/img2.jpg" alt="alt de la imagen" title="title Image" width="100%" height="auto" border="0" style="display:block;"/>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- <![endif]-->
+                  <!-- ****************Ends Show/Hide Fix********************-->
                 </td>
               </tr>
-            </table>
-          </div>
-          <!--Ends iPhone6 & 6+ Resize-->
+            </tbody>
+          </table>
           <!-- ****************Starts Regular Column Stack********************-->
           <p>Regular Column Stack</p>
           <table class="contenttable" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -167,18 +178,6 @@
             </tr>
           </table>
           <!-- ****************Ends Apple link fix********************-->
-          <!-- ****************Starts Show/Hide Fix********************-->
-          <!-- [if !mso] <!-->
-          <div class="showmobile" style="display:none; width:0; max-height:0; overflow:hidden;">
-            <p>Show/Hide Fix</p>
-            <table class="showmobile" width="320" border="0" align="center" cellpadding="0" cellspacing="0" style="margin: 0 auto; display: none; border: 0; max-height:0; overflow:hidden;">
-              <tr>
-                <td><font style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">This is hidden content:<a href="#">hello world</a></font></td>
-              </tr>
-            </table>
-          </div>
-          <!-- <![endif]-->
-          <!-- ****************Ends Show/Hide Fix********************-->
           <!-- ****************Starts Show content in Yahoo only Fix**************-->
           <div class="yahootest" style="display:none;">This content shows only on Yahoo</div>
           <!-- ****************Ends Show content in Yahoo only Fix****************-->
@@ -203,6 +202,13 @@
                 <!--if gte mso 9-->
               </td>
             </tr>
+          </table>
+          <table class="contenttable" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+              <tr>
+                <td><span>Single Table</span></td>
+              </tr>
+            </tbody>
           </table>
           <table class="contenttable" width="600" border="0" cellpadding="0" cellspacing="0" align="center">
             <tr>
@@ -265,6 +271,16 @@
             </tr>
           </table>
           <!--if (gte mso 9)|(IE)-->
+          <!--start spacer table-->
+          <table class="contenttable" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+              <tr>
+                <td><img class="no-class" src="img/spacer.gif" alt="spacer" width="40" height="40" border="0" style="display:block;"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!--ends spacer table-->
           <!-- Ends Gmail App fix 2-->
           <div style="display:none; white-space:nowrap; font:15px courier; color:#ffffff;">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
         </td>
