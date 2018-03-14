@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2154b9d5-1431-484a-ab62-c8c04ebc64f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/components/tablespacer.pug" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pug/components/liquidImage.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pug/components/showMobileImage.pug" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/pug/components/stack.pug" afterPath="$PROJECT_DIR$/app/pug/components/components.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/components/table-padding.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/columnStack.pug" afterPath="$PROJECT_DIR$/app/pug/components/columnStack.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/heroResize.pug" afterPath="$PROJECT_DIR$/app/pug/components/heroResize.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/showMobile.pug" afterPath="$PROJECT_DIR$/app/pug/components/showMobile.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/components.pug" afterPath="$PROJECT_DIR$/app/pug/components/components.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/singleTable.pug" afterPath="$PROJECT_DIR$/app/pug/components/singleTable.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/webFont.pug" afterPath="$PROJECT_DIR$/app/pug/components/webFont.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/yahooFix.pug" afterPath="$PROJECT_DIR$/app/pug/components/yahooFix.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" afterPath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/views/index.pug" afterPath="$PROJECT_DIR$/app/pug/views/index.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
     </list>
@@ -29,101 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="components.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/components.pug">
+      <file leaf-file-name="table-padding.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/pug/components/table-padding.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singleTable.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/singleTable.pug">
+      <file leaf-file-name="cssEmailreset.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tablespacer.pug" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/tablespacer.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="columnStack.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/columnStack.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="emailBg.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/emailBg.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="emailtex.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/emailtex.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hamburguer.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/hamburguer.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showMobile.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/showMobile.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="heroResize.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/heroResize.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oldGrid.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/oldGrid.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="267">
+              <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -171,9 +87,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/pug/mixins/mixins.pug" />
         <option value="$PROJECT_DIR$/app/pug/views/index.pug" />
-        <option value="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/showMobile.pug" />
-        <option value="$PROJECT_DIR$/app/pug/components/singleTable.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/stack.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/appleLinkFix.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/liquidImage.pug" />
@@ -181,8 +95,13 @@
         <option value="$PROJECT_DIR$/app/pug/components/columnStack.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/heroResize.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/oldGrid.pug" />
-        <option value="$PROJECT_DIR$/app/pug/components/components.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/tablespacer.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/webFont.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/singleTable.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/yahooFix.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/components.pug" />
+        <option value="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/table-padding.pug" />
       </list>
     </option>
   </component>
@@ -238,6 +157,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="pug" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myNewFrm_Email" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myNewFrm_Email" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myNewFrm_Email" type="b2602c69:ProjectViewProjectNode" />
@@ -300,12 +226,12 @@
       <workItem from="1520956467685" duration="7973000" />
       <workItem from="1520968250373" duration="14000" />
       <workItem from="1521062816770" duration="67000" />
-      <workItem from="1521062911026" duration="3291000" />
+      <workItem from="1521062911026" duration="4342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31714000" />
+    <option name="totallyTimeSpent" value="32765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,7 +278,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/pug/modules/DIM/showMobile.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/text.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/DIM/liquidImage.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/DIM/columnStack.pug" />
@@ -399,13 +324,6 @@
     <entry file="file://$PROJECT_DIR$/app/pug/modules/appleLinkFix.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/columnStack.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/emailtex.pug" />
-    <entry file="file://$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/modules/oldGrid.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/singleTable.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/utilis/metaTags.pug">
@@ -427,14 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -464,22 +374,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/components/stack.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/webFont.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/yahooFix.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -559,22 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/singleTable.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/components.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/components/columnStack.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -583,10 +461,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/yahooFix.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/webFont.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/components/tablespacer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/singleTable.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/components.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/table-padding.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
