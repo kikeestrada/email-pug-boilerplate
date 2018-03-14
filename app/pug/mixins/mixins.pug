@@ -24,7 +24,7 @@ mixin heroImage(imgLink, imgUrl,imgExt, imgAlt, imgTitle, imgClasss, imgWidth, i
 					img(src=`img/${imgUrl}.${imgExt}` , alt=`${imgAlt}`, title=`${imgTitle}`, class=`${imgClasss}`,  width=`${imgWidth}`, height=`${imgHeight}`, border="0", style="display:block")
 
 //-======================================================================================================================
-mixin imgSpacer(imgWidth, imgHeight)
-	img(src='img/spacer.gif' , alt='spacer', width=`${imgWidth}`, height=`${imgHeight}`, border="0", style="display:block")
+mixin imgSpacer(imgWidth, imgHeight, spacerClass)
+	img(src='img/spacer.gif' , alt='spacer', width=`${imgWidth}`, height=`${imgHeight}`, class=`${spacerClass}`, border="0", style="display:block")
 //- use
-//- +imgSpacer('imgWidth', 'imgHeight')
+//- +imgSpacer('imgWidth', 'imgHeight', 'no-class')
