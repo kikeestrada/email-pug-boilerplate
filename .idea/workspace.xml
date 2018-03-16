@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2154b9d5-1431-484a-ab62-c8c04ebc64f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/utilis/hamburguerReset.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" afterPath="$PROJECT_DIR$/app/pug/utilis/css/cssEmailreset.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/pug/utilis/hamburguerReset.pug" afterPath="$PROJECT_DIR$/app/pug/utilis/css/hamburguerReset.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/hamburguer.pug" afterPath="$PROJECT_DIR$/app/pug/components/hamburguer.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug" afterPath="$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" afterPath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/utilis/metaTags.pug" afterPath="$PROJECT_DIR$/app/pug/utilis/metaTags.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/views/index.pug" afterPath="$PROJECT_DIR$/app/pug/views/index.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,115 +22,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="cssEmailreset.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
+        <entry file="file://$PROJECT_DIR$/app/pug/utilis/css/cssEmailreset.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="e#1033#2433#0" expanded="false" />
-                <element signature="e#2435#2549#0" expanded="false" />
-                <element signature="n#style#1;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metaTags.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/utilis/metaTags.pug">
+      <file leaf-file-name="hamburguerReset.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/pug/utilis/css/hamburguerReset.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basicEmailTemplate.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="121" column="12" lean-forward="true" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
-              <folding>
-                <marker date="1521223580000" expanded="false" signature="5533:5554" ph="..." />
-                <marker date="1521223580000" expanded="true" signature="5555:10094" ph="..." />
-                <marker date="1521223580000" expanded="true" signature="5598:5924" ph="..." />
-                <marker date="1521223580000" expanded="true" signature="5989:6241" ph="..." />
-                <marker date="1521223580000" expanded="false" signature="6337:6390" ph="..." />
-                <marker date="1521223580000" expanded="true" signature="6391:6630" ph="..." />
-                <marker date="1521223580000" expanded="false" signature="6399:6405" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6406:6412" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6413:6419" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6420:6426" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6427:6433" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6434:6440" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6441:6447" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6448:6454" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6455:6461" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6462:6468" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6469:6475" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6482:6488" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6489:6495" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6496:6502" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6503:6509" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6510:6516" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6517:6523" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6524:6530" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6531:6537" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6538:6544" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6545:6551" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6552:6558" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6565:6571" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6572:6578" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6579:6585" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6586:6592" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6593:6599" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6600:6606" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6607:6613" ph=" " />
-                <marker date="1521223580000" expanded="false" signature="6614:6620" ph=" " />
-                <marker date="1521223580000" expanded="true" signature="6766:10084" ph="..." />
-                <marker date="1521223580000" expanded="true" signature="6777:10071" ph="..." />
-                <marker date="1521223580000" expanded="true" signature="6803:10059" ph="..." />
-                <marker date="1521223580000" expanded="false" signature="9906:9973" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/views/index.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hamburguerReset.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pug/utilis/hamburguerReset.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1021">
+            <state relative-caret-position="468">
               <caret line="184" column="5" lean-forward="false" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hamburguer.pug" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/hamburguer.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,10 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/pug/utilis/vars.pug" />
-        <option value="$PROJECT_DIR$/app/pug/modules/DIM/grid.pug" />
-        <option value="$PROJECT_DIR$/app/pug/modules/DIM/test.pug" />
-        <option value="$PROJECT_DIR$/app/pug/modules/DIM/showmobile.pug" />
         <option value="$PROJECT_DIR$/app/pug/modules/DIM/appleLinkFix.pug" />
         <option value="$PROJECT_DIR$/app/pug/modules/DIM/yahooFix.pug" />
         <option value="$PROJECT_DIR$/app/pug/modules/DIM/stack.pug" />
@@ -191,14 +90,18 @@
         <option value="$PROJECT_DIR$/app/pug/components/components.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/table-padding.pug" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/app/pug/views/index.pug" />
-        <option value="$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug" />
         <option value="$PROJECT_DIR$/app/pug/utilis/hamburguerStykes.pug" />
         <option value="$PROJECT_DIR$/app/pug/utilis/metaTags.pug" />
         <option value="$PROJECT_DIR$/app/pug/utilis/hamburguerReset.pug" />
         <option value="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
         <option value="$PROJECT_DIR$/app/pug/components/hamburguer.pug" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug" />
+        <option value="$PROJECT_DIR$/app/pug/utilis/css/cssEmailreset.pug" />
+        <option value="$PROJECT_DIR$/app/pug/utilis/css/cssEmailFixes.pug" />
+        <option value="$PROJECT_DIR$/app/pug/utilis/css/webFonts.pug" />
+        <option value="$PROJECT_DIR$/app/pug/utilis/css/mediaqueryEmailReset.pug" />
       </list>
     </option>
   </component>
@@ -268,6 +171,14 @@
               <item name="myNewFrm_Email" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="utilis" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myNewFrm_Email" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myNewFrm_Email" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,11 +199,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/pug/modules" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/pug/utilis/css" />
+      <recent name="$PROJECT_DIR$/app/pug/modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,12 +236,12 @@
       <workItem from="1520968250373" duration="14000" />
       <workItem from="1521062816770" duration="67000" />
       <workItem from="1521062911026" duration="5164000" />
-      <workItem from="1521218173114" duration="2867000" />
+      <workItem from="1521218173114" duration="3249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36454000" />
+    <option name="totallyTimeSpent" value="36836000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,9 +254,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-24" width="1440" height="866" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21423538" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25863284" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -376,9 +287,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/pug/modules/DIM/oldColumStack.pug" />
-    <entry file="file://$PROJECT_DIR$/app/pug/utilis/sqww.pug" />
-    <entry file="file://$PROJECT_DIR$/app/pug/modules/webFont.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/DIM/inverseColumStck.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/DIM/heroResize.pug" />
     <entry file="file://$PROJECT_DIR$/app/pug/modules/showMobile.pug" />
@@ -548,67 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="121" column="12" lean-forward="true" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
-          <folding>
-            <marker date="1521223580000" expanded="false" signature="5533:5554" ph="..." />
-            <marker date="1521223580000" expanded="true" signature="5555:10094" ph="..." />
-            <marker date="1521223580000" expanded="true" signature="5598:5924" ph="..." />
-            <marker date="1521223580000" expanded="true" signature="5989:6241" ph="..." />
-            <marker date="1521223580000" expanded="false" signature="6337:6390" ph="..." />
-            <marker date="1521223580000" expanded="true" signature="6391:6630" ph="..." />
-            <marker date="1521223580000" expanded="false" signature="6399:6405" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6406:6412" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6413:6419" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6420:6426" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6427:6433" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6434:6440" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6441:6447" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6448:6454" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6455:6461" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6462:6468" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6469:6475" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6482:6488" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6489:6495" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6496:6502" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6503:6509" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6510:6516" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6517:6523" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6524:6530" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6531:6537" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6538:6544" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6545:6551" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6552:6558" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6565:6571" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6572:6578" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6579:6585" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6586:6592" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6593:6599" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6600:6606" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6607:6613" ph=" " />
-            <marker date="1521223580000" expanded="false" signature="6614:6620" ph=" " />
-            <marker date="1521223580000" expanded="true" signature="6766:10084" ph="..." />
-            <marker date="1521223580000" expanded="true" signature="6777:10071" ph="..." />
-            <marker date="1521223580000" expanded="true" signature="6803:10059" ph="..." />
-            <marker date="1521223580000" expanded="false" signature="9906:9973" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/utilis/metaTags.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -621,35 +472,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug">
+    <entry file="file://$PROJECT_DIR$/app/pug/components/hamburguer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <caret line="8" column="60" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
+    <entry file="file://$PROJECT_DIR$/app/pug/utilis/metaTags.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
-            <element signature="e#1033#2433#0" expanded="false" />
-            <element signature="e#2435#2549#0" expanded="false" />
-            <element signature="n#style#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#td#1;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#2;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#2;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#label#1;n#form#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#1;n#div#0;n#form#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#form#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#td#1;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#table#1;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#2;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#2;n#td#0;n#tr#0;n#table#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1521223753000" expanded="false" signature="1009:1030" ph="..." />
+            <marker date="1521223753000" expanded="false" signature="1813:1866" ph="..." />
+            <marker date="1521223753000" expanded="false" signature="1875:1881" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1882:1888" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1889:1895" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1896:1902" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1903:1909" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1910:1916" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1917:1923" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1924:1930" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1931:1937" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1938:1944" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1945:1951" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1958:1964" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1965:1971" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1972:1978" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1979:1985" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1986:1992" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="1993:1999" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2000:2006" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2007:2013" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2014:2020" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2021:2027" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2028:2034" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2041:2047" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2048:2054" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2055:2061" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2062:2068" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2069:2075" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2076:2082" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2083:2089" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="2090:2096" ph=" " />
+            <marker date="1521223753000" expanded="false" signature="10643:10710" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/utilis/hamburguerReset.pug">
+    <entry file="file://$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
+        <state relative-caret-position="65">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/utilis/css/webFonts.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/utilis/css/cssemailfixes.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/utilis/css/cssEmailreset.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#1033#2433#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/utilis/css/hamburguerReset.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
           <caret line="184" column="5" lean-forward="false" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/hamburguer.pug">
+    <entry file="file://$PROJECT_DIR$/app/pug/utilis/css/mediaqueryEmailReset.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
