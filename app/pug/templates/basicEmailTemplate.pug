@@ -6,20 +6,8 @@ html(xmlns='http://www.w3.org/1999/xhtml')
 	head
 		include ../utilis/metaTags
 		include ../utilis/cssEmailreset
-		//include ../utilis/hamburguerReset
+		include ../utilis/hamburguerEmailReset
 	body(style='padding:0 !important;')
-		<!--Starts Gmail App fix -->
-			<!--[if !mso]><!--->
-				<div class="gmailfix" style="white-space:nowrap; font:15px courier; line-height:0;">
-					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-				</div>
-			<!--<![endif]-->
-		<!--Ends Gmail App fix -->
-		<!--[if !mso]><!--->
-			<input type="checkbox" class="mobileCont" checked style="appearance:none!important; overflow:hidden; display:none; width:0px; max-width:0px; height:0px; max-height:0px; visibility:hidden; z-index:-9999; position:absolute; left:100000px;"/>
-		<!--<![endif]-->
 		// Starts NEW Gmail App fix
 		div(class='gmailfix', style='white-space:nowrap; font:15px courier; line-height:0;')
 			|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
