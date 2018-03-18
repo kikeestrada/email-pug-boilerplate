@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2154b9d5-1431-484a-ab62-c8c04ebc64f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pug/utilis/hamburguerEmailReset.pug" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pug/utilis/hamburguerReset.pug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/html/components/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/html/utilis/css/cssEmailreset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/html/utilis/css/cssemailfixes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/html/utilis/css/webFonts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/html/utilis/hamburguerEmailReset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/html/utilis/hamburguerReset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/html/utilis/hamburguerStykes.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/hamburguer.pug" afterPath="$PROJECT_DIR$/app/pug/components/hamburguer.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug" afterPath="$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" afterPath="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/views/index.pug" afterPath="$PROJECT_DIR$/app/pug/views/index.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
     </list>
@@ -35,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/pug/views/index.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -57,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cssEmailreset.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cssEmailreset.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+            <state relative-caret-position="118">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -91,13 +93,13 @@
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-44">
-              <caret line="188" column="22" lean-forward="false" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
+              <caret line="190" column="22" lean-forward="false" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
               <folding>
-                <marker date="1521231174000" expanded="true" signature="19175:19391" ph="..." />
-                <marker date="1521231174000" expanded="true" signature="19175:19403" ph="..." />
-                <marker date="1521231174000" expanded="true" signature="19175:19416" ph="..." />
-                <marker date="1521231174000" expanded="true" signature="19175:19426" ph="..." />
-                <marker date="1521231174000" expanded="false" signature="19238:19305" ph="..." />
+                <marker date="1521340394000" expanded="true" signature="19241:19457" ph="..." />
+                <marker date="1521340394000" expanded="true" signature="19241:19469" ph="..." />
+                <marker date="1521340394000" expanded="true" signature="19241:19482" ph="..." />
+                <marker date="1521340394000" expanded="true" signature="19241:19492" ph="..." />
+                <marker date="1521340394000" expanded="false" signature="19304:19371" ph="..." />
               </folding>
             </state>
           </provider>
@@ -158,10 +160,10 @@
         <option value="$PROJECT_DIR$/app/pug/utilis/hamburguerReset.pug" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/app/pug/components/hamburguer.pug" />
-        <option value="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
         <option value="$PROJECT_DIR$/app/pug/utilis/hamburguerEmailReset.pug" />
         <option value="$PROJECT_DIR$/app/pug/templates/basicEmailTemplate.pug" />
         <option value="$PROJECT_DIR$/app/pug/views/index.pug" />
+        <option value="$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug" />
       </list>
     </option>
   </component>
@@ -171,11 +173,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="-24" />
-    <option name="width" value="1440" />
-    <option name="height" value="866" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -275,12 +276,12 @@
       <workItem from="1520968250373" duration="14000" />
       <workItem from="1521062816770" duration="67000" />
       <workItem from="1521062911026" duration="5164000" />
-      <workItem from="1521218173114" duration="6184000" />
+      <workItem from="1521218173114" duration="7363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39771000" />
+    <option name="totallyTimeSpent" value="40950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,10 +293,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-24" width="1440" height="866" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25863284" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25814137" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -303,7 +304,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3216602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36578172" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -326,8 +327,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3216602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25863284" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36578172" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25863284" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -560,13 +561,13 @@
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
-          <caret line="188" column="22" lean-forward="false" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
+          <caret line="190" column="22" lean-forward="false" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
           <folding>
-            <marker date="1521231174000" expanded="true" signature="19175:19391" ph="..." />
-            <marker date="1521231174000" expanded="true" signature="19175:19403" ph="..." />
-            <marker date="1521231174000" expanded="true" signature="19175:19416" ph="..." />
-            <marker date="1521231174000" expanded="true" signature="19175:19426" ph="..." />
-            <marker date="1521231174000" expanded="false" signature="19238:19305" ph="..." />
+            <marker date="1521340394000" expanded="true" signature="19241:19457" ph="..." />
+            <marker date="1521340394000" expanded="true" signature="19241:19469" ph="..." />
+            <marker date="1521340394000" expanded="true" signature="19241:19482" ph="..." />
+            <marker date="1521340394000" expanded="true" signature="19241:19492" ph="..." />
+            <marker date="1521340394000" expanded="false" signature="19304:19371" ph="..." />
           </folding>
         </state>
       </provider>
@@ -597,10 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
+    <entry file="file://$PROJECT_DIR$/app/pug/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        <state relative-caret-position="105">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -613,10 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/views/index.pug">
+    <entry file="file://$PROJECT_DIR$/app/pug/utilis/cssEmailreset.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
