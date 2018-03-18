@@ -46,9 +46,11 @@ style(type='text/css').
 		line-height: 100%;
 		-ms-interpolation-mode: bicubic;
 	}
-	.appleLinks a {color: #000000 !important; text-decoration: none !important;}
-	/*Media for Android 4.4.4*/
-	/*Media iPhone 6 Plus*/
+	*[class=appleLinks]{color:#000000!important;text-decoration:none!important;}
+	.appleLinks{color:#000000!important;text-decoration:none!important;}
+
+	*[class=rblock]{margin-top:10px!important;width:320px!important;}
+	.rblock{margin-top:10px!important;width:320px!important;}
 
 	@media only screen and (max-width: 640px){
 		/*CSS for Yahoo no spaces*/
@@ -57,30 +59,31 @@ style(type='text/css').
 		/*CSS for Yahoo no spaces*/
 		*[class=contenttable]{width:320px!important;}
 		.contenttable{width:320px!important;}
+
+		*[class=mobile]{width:414px!important;height:auto!important;}
+		.mobile{width:414px!important;height:auto!important;}
+
+
 		*[class=hide]{display:none!important;}
 		.hide{display:none!important;}
+
 		*[class=showmobile]{display:block!important;margin:auto!important;width:100%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
 		.showmobile{display:block!important;margin:auto!important;width:100%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
-		*[class=showmobiletable] {display:block!important;margin:auto!important;width:95%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
-		.showmobiletable{display:block!important;margin:auto!important;width:95%!important;height:auto!important;max-height:inherit!important;overflow:visible!important;}
-		*[class=contentInteractive]{display:none!important;}
+
 		.blocktable{width:100%!important;}
 		*[class=blocktable]{width:100%!important;}
-		.mobile{width:414px!important;height:auto!important;}
-		*[class=mobile]{width:414px!important;height:auto!important;}
+
 		*[class=block]{display:block!important;float:none}
 		.block{display:block!important;float:none}
 
 		*[class=rwd-padding]{width:15px!important;}
 		.rwd-padding{width:15px!important;}
 
+		*[class=contentInteractive]{display:none!important;}
+		.contentInteractive{display:none!important;}
 	}
-	@media yahoo{
-		.yahootest {width:200px !important; border:1px solid red !important; display:block !important;}
-	}
-	*[class=rblock] { margin-top:10px !important; width:320px !important;}
+	@media yahoo{.yahootest{width:200px!important;border:1px solid red!important;display:block!important;}}
 
-style.
 	@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 	/* latin */
 	@font-face {
@@ -89,7 +92,6 @@ style.
 		font-weight: 400;
 		src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
 	}
+	*[class=gmailfix]{display:none;display:none!important;}
+	.gmailfix{display:none;display:none!important;}
 
-
-style(type='text/css').
-	.gmailfix {display: none;display: none !important;}
