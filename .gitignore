@@ -4,4 +4,6 @@
 .idea/emacs.xml
 .idea/inspectionProfiles/
 app/pug/modules/DIM/
+node_modules
+package-lock.json
 

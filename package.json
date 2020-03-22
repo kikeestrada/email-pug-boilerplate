@@ -1,0 +1,24 @@
+{
+	"name": "email-pug-boilerplate",
+	"version": "1.0.0",
+	"description": "gh=pages link: https://kikeestrada.github.io/email-pug-boilerplate/dist/",
+	"main": "index.js",
+	"homepage": "https://kikeestrada.github.io/myStyleGuide/",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy": "gh-pages -d public"
+	},
+	"dependencies": {
+		"gh-pages": "^2.1.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kikeestrada/email-pug-boilerplate.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kikeestrada/email-pug-boilerplate/issues"
+	}
+}
